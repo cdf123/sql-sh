@@ -1,0 +1,15 @@
+# Visual Studio Files
+.vs
+
+# Misc build files
+Exploit/obj
+ConsoleApp1/obj
+Exploit/bin/*/*.pdb
+
+# Unwanted builds
+ConsoleApp1/bin
+Exploit/bin/Debug
+
+# AdventureWorks example database for testing
+# https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-2016
+AdventureWorks2016.bak
