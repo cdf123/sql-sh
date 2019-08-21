@@ -4,7 +4,7 @@ Simple cmd/powershell "xp_cmdshell" replacement using SQL Server Common Language
 
 ### SQL Server Prerequisites
 
-rldr: If the server isn't setup right, and you're not connected as a sysadmin user, then this method won't work.
+tldr: If the server isn't setup right, and you're not connected as a sysadmin user, then this method won't work.
 
 SQL Server 2005 introduced the integration of the CLR component of the .NET Framework.  This allows you to run .NET based application within SQL Server with the intent of expanding the functionality of SQL Server for applications.  In order to use the CLR within SQL Server, the server must be configured first, this may have already been done by some applications.
 
